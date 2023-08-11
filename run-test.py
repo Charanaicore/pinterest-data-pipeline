@@ -6,7 +6,7 @@ meta_cluster_conn = ClusterMetadata(
     bootstrap_servers="localhost:9092", # Specific the broker address to connect to
 )
 
-# retrieve metadata about the cluster
+# Retrieve metadata about the cluster
 print(meta_cluster_conn.brokers())
 
 
