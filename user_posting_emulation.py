@@ -59,7 +59,7 @@ def run_infinite_post_data_loop():
             # geo_selected_row = connection.execute(geo_string)
             
             # for row in geo_selected_row:
-            #     geo_result = dict(row._mapping)
+            #    geo_result = dict(row._mapping)
 
             # user_string = text(f"SELECT * FROM user_data LIMIT {random_row}, 1")
             # user_selected_row = connection.execute(user_string)
