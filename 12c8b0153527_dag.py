@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 #Define params for Submit Run Operator
 notebook_task = {
-    'notebook_path': '/Users/paulio1977@hotmail.com/Batch Processing S3 Data',
+    'notebook_path': '/Users/saicharan.chandu1995@gmail.com/Batch Processing S3 Data',
 }
 
 
@@ -16,7 +16,7 @@ notebook_params = {
 
 
 default_args = {
-    'owner': 'Paul Stevens',
+    'owner': 'sai charan',
     'depends_on_past': False,
     'email_on_failure': False,
     'email_on_retry': False,
@@ -25,7 +25,7 @@ default_args = {
 }
 
 
-with DAG('1215be80977f_dag',
+with DAG('12c8b0153527_dag',
     # should be a datetime format
     start_date=datetime(2023, 8, 20),
     # check out possible intervals, should be a string
